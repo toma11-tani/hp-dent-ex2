@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ハーモニーデンタルクリニック｜LINE予約対応の歯科医院</title>
-  <meta name="description" content="ハーモニーデンタルクリニックは芝公園駅徒歩3分。保険診療から矯正・インプラントまで幅広く対応し、LINE・電話・メールでご予約いただけます。">
+  <title>ハーモニーデンタルクリニック｜LINE予約・夜間診療対応の歯科医院</title>
+  <meta name="description" content="ハーモニーデンタルクリニックは芝公園駅徒歩3分。滅菌体制と丁寧なカウンセリングで、むし歯治療から矯正・インプラントまで対応します。LINE・電話・メールでご予約いただけます。">
   <link rel="canonical" href="https://example.com">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="ハーモニーデンタルクリニック｜LINE予約対応の歯科医院">
-  <meta property="og:description" content="芝公園駅徒歩3分のハーモニーデンタルクリニック。LINE・電話・メールでご予約可能。家族みんなの口腔健康を守ります。">
+  <meta property="og:title" content="ハーモニーデンタルクリニック｜LINE予約・夜間診療対応の歯科医院">
+  <meta property="og:description" content="芝公園駅徒歩3分の歯科医院。平日夜19時まで、滅菌徹底、バリアフリーで家族みんなに安心。LINE・電話・メールでご予約を承ります。">
   <meta property="og:url" content="https://example.com">
   <meta property="og:image" content="assets/img/hero.jpg">
   <meta name="twitter:card" content="summary_large_image">
@@ -19,16 +19,16 @@
   <header class="header" id="top">
     <div class="header__inner">
       <div class="header__brand">
-        <a href="#top" class="header__logo">ハーモニーデンタルクリニック</a>
+        <a href="#top" class="header__logo" aria-label="ハーモニーデンタルクリニックのトップへ">Harmony Dental Clinic</a>
         <p class="header__established">2010年開院</p>
       </div>
-      <div class="header__contact">
+      <div class="header__actions">
         <a class="header__tel" href="tel:0312345678" aria-label="電話でお問い合わせ 03-1234-5678">03-1234-5678</a>
         <a class="btn btn--primary btn--small" href="https://line.me/R/ti/p/@harmonydental">LINEで予約</a>
       </div>
-      <input type="checkbox" id="nav-toggle" class="nav__toggle" aria-label="メニューを開く">
-      <label for="nav-toggle" class="nav__button" aria-label="メニュー">☰</label>
-      <nav class="nav" aria-label="主要メニュー">
+      <input type="checkbox" id="nav-toggle" class="nav__toggle" aria-label="メニューを開閉">
+      <label for="nav-toggle" class="nav__button" aria-label="メニューを開く">☰</label>
+      <nav class="nav" aria-label="グローバルナビゲーション">
         <ul class="nav__list">
           <li><a href="#reason">選ばれる理由</a></li>
           <li><a href="#services">診療メニュー</a></li>
@@ -40,58 +40,61 @@
       </nav>
     </div>
   </header>
+
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero__content">
-        <p class="hero__tag">芝公園駅徒歩3分・LINE予約でスムーズ</p>
-        <h1 class="hero__title" id="hero-title">家族みんなの笑顔を守る地域密着の歯科クリニック</h1>
-        <p class="hero__lead">ハーモニーデンタルクリニックは、むし歯治療から予防歯科、矯正、インプラントまでトータルサポート。バリアフリー設計でベビーカーも安心です。</p>
-        <ul class="hero__benefits" aria-label="当院の特長">
-          <li>平日夜19時まで・土曜も診療</li>
-          <li>院内滅菌システムとディスポーザブル徹底</li>
-          <li>国家資格カウンセラーによる丁寧な説明</li>
-        </ul>
-        <div class="hero__cta">
-          <a class="btn btn--primary btn--large btn--block" href="https://line.me/R/ti/p/@harmonydental">LINEで予約</a>
-          <a class="btn btn--secondary btn--large btn--block" href="tel:0312345678">03-1234-5678に電話</a>
+      <div class="hero__inner">
+        <div class="hero__content">
+          <p class="hero__tag">芝公園駅徒歩3分・平日夜19時まで診療</p>
+          <h1 class="hero__title" id="hero-title">家族の未来を支えるトータルケア歯科</h1>
+          <p class="hero__lead">ハーモニーデンタルクリニックは、むし歯治療から予防、矯正、インプラント、審美まで幅広い治療をひとつの場所で提供します。ていねいな説明と痛みに配慮した治療で、初めての方も安心です。</p>
+          <ul class="hero__benefits" aria-label="当院の特長">
+            <li>国家資格カウンセラーによる治療説明と相談体制</li>
+            <li>クラスB滅菌器・口腔外バキュームで衛生管理を徹底</li>
+            <li>ベビーカーOKのバリアフリー設計とキッズスペース</li>
+          </ul>
+          <div class="hero__cta">
+            <a class="btn btn--primary btn--large btn--block" href="https://line.me/R/ti/p/@harmonydental">LINEで予約</a>
+            <a class="btn btn--secondary btn--large btn--block" href="tel:0312345678">03-1234-5678に電話</a>
+          </div>
+          <div class="hero__qr">
+            <img src="assets/img/line-qr.png" alt="LINE公式アカウントのQRコード" loading="lazy">
+            <p>QRコードを読み取って友だち追加</p>
+          </div>
         </div>
-        <div class="hero__qr">
-          <img src="assets/img/line-qr.png" alt="LINE公式アカウントQRコード" loading="lazy">
-          <p>スマートフォンで読み取って友だち追加</p>
+        <div class="hero__visual">
+          <img src="assets/img/hero.jpg" alt="自然光が入る歯科診療室の写真" loading="lazy">
         </div>
-      </div>
-      <div class="hero__visual">
-        <img src="assets/img/hero.jpg" alt="明るい歯科診療室の写真" loading="lazy">
       </div>
     </section>
 
-    <section class="section section--alt" id="reason" aria-labelledby="reason-title">
+    <section class="section section--contrast" id="reason" aria-labelledby="reason-title">
       <div class="section__inner">
         <h2 class="section__title" id="reason-title">当院が選ばれる6つの理由</h2>
         <div class="grid grid--three">
           <article class="card card--reason">
-            <h3 class="card__title">痛みを抑える丁寧な治療</h3>
-            <p class="card__text">表面麻酔と電動麻酔器を併用し、痛みに配慮した治療を実践。治療中もこまめな声かけで不安を軽減します。</p>
+            <h3 class="card__title">痛みに配慮した低侵襲治療</h3>
+            <p class="card__text">電動麻酔器や表面麻酔を併用し、患者さまの負担を最小限に。治療中も声かけを欠かさず、不安の軽減に努めます。</p>
           </article>
           <article class="card card--reason">
-            <h3 class="card__title">徹底した衛生管理</h3>
-            <p class="card__text">世界水準のクラスB滅菌器と滅菌パックを使用。器具ごとの使い捨てを徹底し、院内感染対策に努めています。</p>
+            <h3 class="card__title">高度な滅菌・衛生管理</h3>
+            <p class="card__text">世界基準のクラスB滅菌器と口腔外バキューム、使い捨て器具を導入。院内感染対策を徹底し安心の治療環境を整備。</p>
           </article>
           <article class="card card--reason">
-            <h3 class="card__title">わかりやすい事前説明</h3>
-            <p class="card__text">治療前に写真や模型を用いて治療内容と費用を明確にご説明。ご納得いただいた上で治療を進めます。</p>
+            <h3 class="card__title">予防重視の継続サポート</h3>
+            <p class="card__text">定期検診やプロによるクリーニング、生活習慣アドバイスでむし歯・歯周病の再発防止をサポートします。</p>
           </article>
           <article class="card card--reason">
-            <h3 class="card__title">幅広い診療科目</h3>
-            <p class="card__text">一般歯科・小児歯科・矯正歯科・口腔外科など、専門医と連携し幅広いニーズに対応できる体制です。</p>
+            <h3 class="card__title">子どもから大人まで対応</h3>
+            <p class="card__text">小児歯科専任スタッフが常駐し、フッ素塗布や予防矯正にも対応。家族一緒に通える体制を整えています。</p>
           </article>
           <article class="card card--reason">
-            <h3 class="card__title">通いやすい立地</h3>
-            <p class="card__text">芝公園駅から徒歩3分、都営バス停留所からも徒歩1分。近隣に提携駐車場を完備し、お子さま連れでも安心です。</p>
+            <h3 class="card__title">総合的な治療提案</h3>
+            <p class="card__text">矯正・インプラント・審美など多分野の専門医と連携し、症状やライフスタイルに合わせた治療プランをご提案。</p>
           </article>
           <article class="card card--reason">
-            <h3 class="card__title">キッズスペース完備</h3>
-            <p class="card__text">院内に見守りカメラ付きのキッズスペースを設置。保護者の方も安心して治療に専念いただけます。</p>
+            <h3 class="card__title">アクセス良好で通いやすい</h3>
+            <p class="card__text">芝公園駅から徒歩3分、近隣に提携駐車場あり。平日夜は19時まで診療し、お仕事帰りでも通院しやすい立地です。</p>
           </article>
         </div>
       </div>
@@ -100,87 +103,98 @@
     <section class="section" id="services" aria-labelledby="services-title">
       <div class="section__inner">
         <h2 class="section__title" id="services-title">診療メニュー</h2>
+        <p class="section__lead">保険診療から専門性の高い治療まで、トータルでお口の健康を支えます。</p>
         <div class="grid grid--three">
           <article class="card card--service">
             <h3 class="card__title">一般歯科</h3>
-            <p class="card__text">むし歯・歯周病治療、根管治療など保険診療中心に幅広く対応。再発防止を意識した処置を行います。</p>
+            <p class="card__text">むし歯・歯周病治療、根管治療、詰め物・被せ物など日常的なお悩みに幅広く対応します。</p>
+            <p class="card__price">保険診療</p>
           </article>
           <article class="card card--service">
             <h3 class="card__title">予防歯科</h3>
-            <p class="card__text">定期検診、クリーニング、フッ素塗布、歯磨き指導で生涯むし歯ゼロを目指します。</p>
+            <p class="card__text">定期検診やPMTC、フッ素塗布でむし歯や歯周病を未然に防ぐケアを行います。</p>
+            <p class="card__price">保険＋自費</p>
           </article>
           <article class="card card--service">
             <h3 class="card__title">小児歯科</h3>
-            <p class="card__text">お子さまの成長に合わせた予防と治療。恐怖心を取り除くトレーニングからスタートします。</p>
+            <p class="card__text">成長に合わせたむし歯予防、シーラント、矯正相談まで、子どもの歯を専門的にサポート。</p>
+            <p class="card__price">保険診療</p>
           </article>
           <article class="card card--service">
             <h3 class="card__title">矯正歯科</h3>
-            <p class="card__text">ワイヤー矯正とマウスピース矯正の両方に対応し、噛み合わせと見た目のバランスを整えます。</p>
+            <p class="card__text">ワイヤー矯正からマウスピース矯正まで取り扱い、目立ちにくい装置もご用意しています。</p>
+            <p class="card__price">自費診療</p>
           </article>
           <article class="card card--service">
             <h3 class="card__title">口腔外科</h3>
-            <p class="card__text">親知らずの抜歯や顎関節症、口内炎など、外科的処置にも対応できる体制を整えています。</p>
+            <p class="card__text">親知らず抜歯、顎関節症、口内炎など専門医と連携しながら外科処置に対応します。</p>
+            <p class="card__price">保険＋自費</p>
           </article>
           <article class="card card--service">
             <h3 class="card__title">インプラント</h3>
-            <p class="card__text">CTを用いた精密診断とガイドサージェリーで安全性を重視。術後のメンテナンスもサポート。</p>
+            <p class="card__text">CT撮影とサージカルガイドを活用し、安全性と審美性を両立したインプラント治療を提供。</p>
+            <p class="card__price">自費診療</p>
           </article>
           <article class="card card--service">
             <h3 class="card__title">審美歯科</h3>
-            <p class="card__text">ホワイトニングやセラミック治療で自然な美しさを追求。カウンセリングでご要望を丁寧に伺います。</p>
+            <p class="card__text">ホワイトニングやセラミック治療で自然な美しさと機能を両立した口元へ導きます。</p>
+            <p class="card__price">自費診療</p>
           </article>
         </div>
         <div class="section__cta">
-          <a class="btn btn--primary" href="https://line.me/R/ti/p/@harmonydental">LINEで簡単予約</a>
+          <a class="btn btn--ghost" href="https://line.me/R/ti/p/@harmonydental">治療のご相談はLINEで受付中</a>
         </div>
       </div>
     </section>
 
-    <section class="section section--alt" id="prices" aria-labelledby="prices-title">
+    <section class="section section--soft" id="prices" aria-labelledby="prices-title">
       <div class="section__inner">
         <h2 class="section__title" id="prices-title">料金の目安</h2>
-        <p class="section__lead">保険診療は厚生労働省の定める保険点数により金額が変わります。下記は目安としてご確認ください。</p>
-        <div class="table-wrapper">
-          <table class="table" aria-describedby="prices-title">
-            <caption>保険診療の料金目安</caption>
-            <thead>
-              <tr>
-                <th scope="col">項目</th>
-                <th scope="col">目安料金</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">初診料</th>
-                <td>数千円</td>
-              </tr>
-              <tr>
-                <th scope="row">再診料</th>
-                <td>数百〜千円台</td>
-              </tr>
-              <tr>
-                <th scope="row">スケーリング</th>
-                <td>数千円</td>
-              </tr>
-              <tr>
-                <th scope="row">レントゲン</th>
-                <td>数百〜千円台</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <details class="details">
-          <summary class="details__summary">自費診療料金の目安を見る</summary>
-          <div class="details__content">
-            <ul class="details__list">
-              <li>矯正歯科：70万〜100万円（マウスピース矯正含む）</li>
-              <li>インプラント：30万〜50万円/本（手術・上部構造込）</li>
-              <li>審美歯科：ホワイトニング1.5万〜3万円／セラミック8万〜15万円</li>
-              <li>口腔外科：症状によりご案内いたします</li>
-            </ul>
+        <p class="section__lead">保険診療は厚生労働省の点数制度に基づきます。自費診療は目安としてご確認ください。</p>
+        <div class="pricing">
+          <div class="pricing__table-wrapper">
+            <h3 class="pricing__heading">保険診療の例</h3>
+            <table class="pricing__table">
+              <thead>
+                <tr>
+                  <th scope="col">内容</th>
+                  <th scope="col">料金目安</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">初診料</th>
+                  <td>数千円</td>
+                </tr>
+                <tr>
+                  <th scope="row">再診料</th>
+                  <td>数百〜千円台</td>
+                </tr>
+                <tr>
+                  <th scope="row">スケーリング</th>
+                  <td>数千円</td>
+                </tr>
+                <tr>
+                  <th scope="row">レントゲン撮影</th>
+                  <td>数百〜千円台</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-        </details>
-        <p class="section__note">※表示料金は税込。症状・材料・保険適用状況により変動します。詳しくはカウンセリングでご説明いたします。</p>
+          <div class="pricing__details">
+            <details class="pricing__detail" open>
+              <summary>自費診療の目安を見る</summary>
+              <ul>
+                <li>ホワイトニング：1.5万〜3万円</li>
+                <li>セラミッククラウン：8万〜15万円</li>
+                <li>インプラント：30万〜50万円/本</li>
+                <li>マウスピース矯正：70万〜100万円</li>
+                <li>審美補綴：1.5万〜</li>
+              </ul>
+            </details>
+            <p class="pricing__note">※症状や使用材料により費用が変動します。詳細なお見積もりはカウンセリング時にご提示いたします。</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -188,51 +202,51 @@
       <div class="section__inner">
         <h2 class="section__title" id="facility-title">設備・衛生への取り組み</h2>
         <div class="grid grid--three">
-          <article class="card card--facility">
+          <article class="card card--feature">
             <h3 class="card__title">クラスB滅菌器</h3>
-            <p class="card__text">高圧蒸気滅菌器で器具の内部まで徹底滅菌し、ウイルスや細菌を完全に除去します。</p>
+            <p class="card__text">世界基準の滅菌器で器具を一本ずつ滅菌し、感染リスクを徹底的に排除します。</p>
           </article>
-          <article class="card card--facility">
-            <h3 class="card__title">ディスポーザブル活用</h3>
-            <p class="card__text">コップやエプロン、グローブなどはすべて使い捨て。交差感染のリスクを最小限に抑えます。</p>
+          <article class="card card--feature">
+            <h3 class="card__title">ディスポーザブル</h3>
+            <p class="card__text">コップ・エプロン・グローブなど患者さまごとに使い捨て。安心して治療を受けられます。</p>
           </article>
-          <article class="card card--facility">
-            <h3 class="card__title">院内空調管理</h3>
-            <p class="card__text">医療用空気清浄機と換気システムを導入し、常にクリーンな環境を維持しています。</p>
+          <article class="card card--feature">
+            <h3 class="card__title">クリーン空調</h3>
+            <p class="card__text">医療用空気清浄機と換気システムを導入し、院内の空気環境を常にクリーンに保ちます。</p>
           </article>
-          <article class="card card--facility">
+          <article class="card card--feature">
             <h3 class="card__title">キッズスペース</h3>
-            <p class="card__text">おもちゃや絵本を備えたキッズスペース。診療中もスタッフが見守り安心です。</p>
+            <p class="card__text">お子さまがリラックスできるよう絵本や知育玩具を備えたキッズコーナーを併設。</p>
           </article>
-          <article class="card card--facility">
-            <h3 class="card__title">個室カウンセリング</h3>
-            <p class="card__text">プライバシーに配慮した個室で、じっくりお悩みを伺い治療プランをご提案します。</p>
+          <article class="card card--feature">
+            <h3 class="card__title">半個室診療室</h3>
+            <p class="card__text">プライバシーに配慮した半個室で周囲の目を気にせず治療を受けられます。</p>
           </article>
-          <article class="card card--facility">
-            <h3 class="card__title">バリアフリー設計</h3>
-            <p class="card__text">院内は段差の少ないバリアフリー。車いすやベビーカーでもスムーズに移動できます。</p>
+          <article class="card card--feature">
+            <h3 class="card__title">完全バリアフリー</h3>
+            <p class="card__text">入口から診療室まで段差のない設計で、車いすやベビーカーでもスムーズに移動できます。</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section section--alt" id="doctor" aria-labelledby="doctor-title">
+    <section class="section section--contrast" id="doctor" aria-labelledby="doctor-title">
       <div class="section__inner section__inner--split">
-        <div class="doctor__image">
-          <img src="assets/img/staff-1.jpg" alt="院長 山田太郎の写真" loading="lazy">
+        <div class="doctor__photo">
+          <img src="assets/img/staff-1.jpg" alt="院長の笑顔の写真" loading="lazy">
         </div>
-        <div class="doctor__content">
+        <div class="doctor__profile">
           <h2 class="section__title" id="doctor-title">院長紹介</h2>
-          <p class="doctor__name">院長 山田 太郎</p>
-          <p class="doctor__bio">東京歯科大学卒業後、大学病院口腔外科勤務を経て2010年にハーモニーデンタルクリニックを開院。患者さまに寄り添った丁寧な診療を心がけています。</p>
+          <p class="doctor__name">院長　山田 太郎</p>
+          <p class="doctor__career">東京医科歯科大学卒業。大学病院での臨床経験を経て2010年にハーモニーデンタルクリニックを開院。患者さま一人ひとりに寄り添う治療を大切にしています。</p>
           <h3 class="doctor__subtitle">所属学会</h3>
           <ul class="doctor__list">
             <li>日本歯科医師会</li>
-            <li>日本矯正歯科学会</li>
             <li>日本口腔インプラント学会</li>
+            <li>日本矯正歯科学会</li>
           </ul>
           <h3 class="doctor__subtitle">得意とする分野</h3>
-          <p class="doctor__specialty">予防歯科、審美歯科、インプラント、親知らず抜歯、咬合調整</p>
+          <p class="doctor__strength">包括的な治療計画の立案、インプラント、審美補綴治療、歯周病治療。</p>
         </div>
       </div>
     </section>
@@ -242,52 +256,52 @@
         <h2 class="section__title" id="voices-title">患者さまの声</h2>
         <div class="grid grid--three">
           <article class="card card--voice">
-            <p class="card__stars" aria-label="5点満点中5点">★★★★★</p>
-            <p class="card__text">治療方針を丁寧に説明していただき安心して通えました。スタッフの皆さんも親切で居心地が良いです。</p>
+            <p class="card__rating" aria-label="星5つ中5つ">★★★★★</p>
+            <p class="card__text">痛みがほとんどなく、治療前後の説明が分かりやすかったです。夜まで診療しているので仕事帰りに通えました。</p>
             <p class="card__meta">30代女性／会社員</p>
           </article>
           <article class="card card--voice">
-            <p class="card__stars" aria-label="5点満点中4点">★★★★☆</p>
-            <p class="card__text">LINEで予約ができて便利。子ども連れでも対応がスムーズで、キッズスペースが助かります。</p>
+            <p class="card__rating" aria-label="星5つ中4つ">★★★★☆</p>
+            <p class="card__text">キッズスペースがあり子どもが安心して待てるのが嬉しい。衛生管理がしっかりしていて信頼できます。</p>
             <p class="card__meta">40代女性／主婦</p>
           </article>
           <article class="card card--voice">
-            <p class="card__stars" aria-label="5点満点中5点">★★★★★</p>
-            <p class="card__text">インプラント手術も痛みが少なく、術後のフォローが手厚いと感じました。信頼できる歯科です。</p>
-            <p class="card__meta">50代男性／自営業</p>
+            <p class="card__rating" aria-label="星5つ中5つ">★★★★★</p>
+            <p class="card__text">矯正の相談から治療まで丁寧に対応していただき、仕上がりにも満足しています。費用の説明も明確でした。</p>
+            <p class="card__meta">20代男性／学生</p>
           </article>
         </div>
-        <p class="section__note">※個人の感想であり、治療効果を保証するものではありません。</p>
+        <p class="section__note">※感想は個人の体験であり、治療結果には個人差があります。</p>
       </div>
     </section>
 
-    <section class="section section--alt" id="faq" aria-labelledby="faq-title">
+    <section class="section section--soft" id="faq" aria-labelledby="faq-title">
       <div class="section__inner">
         <h2 class="section__title" id="faq-title">よくあるご質問</h2>
         <div class="faq">
-          <details class="faq__item">
-            <summary>治療は痛くありませんか？</summary>
-            <p>表面麻酔と電動麻酔器を使用し、痛みに配慮した治療を行っています。不安な点はいつでもご相談ください。</p>
+          <details>
+            <summary>治療の痛みはどの程度ありますか？</summary>
+            <p>表面麻酔と電動麻酔器を併用することで痛みを抑え、痛みに弱い方には時間をかけて麻酔を行います。</p>
           </details>
-          <details class="faq__item">
-            <summary>初診はどのくらい時間がかかりますか？</summary>
-            <p>問診・検査・カウンセリングを含めて約60分を目安としております。お急ぎの場合は事前にご相談ください。</p>
+          <details>
+            <summary>初診から治療完了までどのくらい時間がかかりますか？</summary>
+            <p>症状により異なりますが、初診では問診・検査・応急処置を行い、次回以降に治療計画をご説明します。お急ぎの場合はご相談ください。</p>
           </details>
-          <details class="faq__item">
-            <summary>費用はどのくらいかかりますか？</summary>
-            <p>保険診療は保険点数に基づきます。自費診療はカウンセリングで明確なお見積りをご提示いたします。</p>
+          <details>
+            <summary>費用の支払い方法や分割は可能ですか？</summary>
+            <p>保険診療は現金、キャッシュレス決済に対応。自費治療はクレジットカードやデンタルローンでの分割払いも承ります。</p>
           </details>
-          <details class="faq__item">
-            <summary>保険証を忘れても受診できますか？</summary>
-            <p>受診は可能ですが、自費扱いとなる場合があります。後日保険証をお持ちいただければ精算いたします。</p>
+          <details>
+            <summary>保険証を忘れた場合はどうなりますか？</summary>
+            <p>一時的に自費扱いとなりますが、後日保険証と領収書をご持参いただければ精算させていただきます。</p>
           </details>
-          <details class="faq__item">
+          <details>
             <summary>子どもを連れて行っても大丈夫ですか？</summary>
-            <p>キッズスペースとベビーカー対応の診療室がございます。お子さまと一緒に安心してご来院ください。</p>
+            <p>キッズスペースとベビーカー対応の院内環境を整えています。ご家族での来院も歓迎です。</p>
           </details>
-          <details class="faq__item">
-            <summary>急な痛みにも対応してもらえますか？</summary>
-            <p>急患対応を行っています。お電話もしくはLINEでご連絡いただくとスムーズにご案内できます。</p>
+          <details>
+            <summary>急な痛みや外傷にも対応できますか？</summary>
+            <p>急患対応を行っています。事前にお電話またはLINEでご連絡いただくとスムーズです。</p>
           </details>
         </div>
       </div>
@@ -298,98 +312,97 @@
         <h2 class="section__title" id="access-title">アクセス・診療時間</h2>
         <div class="access">
           <div class="access__info">
-            <p class="access__address">〒123-4567 東京都港区芝公園1-1-1</p>
-            <p class="access__transport">芝公園駅 徒歩3分／都営バス「芝公園駅前」停留所すぐ</p>
-            <p class="access__parking">提携コインパーキング2台分</p>
+            <p class="access__address">〒105-0011 東京都港区芝公園1-2-3 ハーモニービル1F</p>
+            <ul class="access__list">
+              <li><strong>最寄り駅：</strong>芝公園駅 徒歩3分</li>
+              <li><strong>バス：</strong>都営バス「芝公園駅前」下車すぐ</li>
+              <li><strong>駐車場：</strong>提携コインパーキング2台（サービス券あり）</li>
+            </ul>
             <div class="access__cta">
-              <a class="btn btn--primary" href="https://line.me/R/ti/p/@harmonydental">LINEで来院予約</a>
-              <a class="btn btn--ghost" href="tel:0312345678">電話で問い合わせ</a>
+              <a class="btn btn--primary" href="https://line.me/R/ti/p/@harmonydental">LINEで予約</a>
+              <a class="btn btn--secondary" href="tel:0312345678">電話する</a>
+            </div>
+            <div class="access__qr">
+              <img src="assets/img/line-qr.png" alt="LINE予約用QRコード" loading="lazy">
+              <p>スマートフォンから簡単予約</p>
             </div>
           </div>
           <div class="access__map">
-            <a href="https://maps.google.com/?q=35.6586,139.7454" class="access__map-link" aria-label="Googleマップで開く">
-              <img src="assets/img/map.png" alt="クリニック周辺地図" loading="lazy">
-            </a>
+            <img src="assets/img/map.png" alt="ハーモニーデンタルクリニック周辺地図" loading="lazy">
+            <a class="access__map-link" href="https://maps.google.com/?q=%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%83%BC%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF" aria-label="Googleマップでハーモニーデンタルクリニックを開く">Googleマップで開く</a>
           </div>
-        </div>
-        <div class="timetable">
-          <table class="table table--schedule">
-            <caption>診療時間</caption>
-            <thead>
-              <tr>
-                <th scope="col">曜日</th>
-                <th scope="col">午前</th>
-                <th scope="col">午後</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">月</th>
-                <td>9:30-13:00</td>
-                <td>14:30-19:00</td>
-              </tr>
-              <tr>
-                <th scope="row">火</th>
-                <td>9:30-13:00</td>
-                <td>14:30-19:00</td>
-              </tr>
-              <tr>
-                <th scope="row">水</th>
-                <td>9:30-13:00</td>
-                <td>14:30-19:00</td>
-              </tr>
-              <tr>
-                <th scope="row">木</th>
-                <td>9:30-13:00</td>
-                <td>14:30-19:00</td>
-              </tr>
-              <tr>
-                <th scope="row">金</th>
-                <td>9:30-13:00</td>
-                <td>14:30-19:00</td>
-              </tr>
-              <tr>
-                <th scope="row">土</th>
-                <td>9:30-13:00</td>
-                <td>14:00-17:00</td>
-              </tr>
-              <tr>
-                <th scope="row">日・祝</th>
-                <td colspan="2">休診</td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="timetable__note">※最終受付は診療終了の30分前です。</p>
-          <div class="timetable__qr">
-            <img src="assets/img/line-qr.png" alt="LINE予約QRコード" loading="lazy">
-            <p>LINEから24時間予約受付</p>
+          <div class="access__hours">
+            <h3 class="access__subtitle">診療時間</h3>
+            <table class="hours">
+              <thead>
+                <tr>
+                  <th scope="col">時間</th>
+                  <th scope="col">月</th>
+                  <th scope="col">火</th>
+                  <th scope="col">水</th>
+                  <th scope="col">木</th>
+                  <th scope="col">金</th>
+                  <th scope="col">土</th>
+                  <th scope="col">日・祝</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">9:30-13:00</th>
+                  <td>●</td>
+                  <td>●</td>
+                  <td>●</td>
+                  <td>●</td>
+                  <td>●</td>
+                  <td>●</td>
+                  <td>―</td>
+                </tr>
+                <tr>
+                  <th scope="row">14:30-19:00</th>
+                  <td>●</td>
+                  <td>●</td>
+                  <td>●</td>
+                  <td>●</td>
+                  <td>●</td>
+                  <td>〜17:00</td>
+                  <td>―</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="section__note">最終受付は診療終了の30分前です。急患は随時ご相談ください。</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section section--alt" id="contact" aria-labelledby="contact-title">
+    <section class="section section--soft" id="contact" aria-labelledby="contact-title">
       <div class="section__inner">
         <h2 class="section__title" id="contact-title">お問い合わせ</h2>
-        <p class="section__lead">メールでのお問い合わせは以下フォームをご利用ください。お急ぎの方はお電話またはLINEをご利用ください。</p>
-        <form class="form" action="mailto:info@example.com" method="post" enctype="text/plain">
+        <p class="section__lead">メールでのお問い合わせは以下のフォームから承ります。*は必須項目です。</p>
+        <form class="form" action="mailto:info@example.com" method="post">
           <div class="form__group">
-            <label for="name">お名前 <span aria-hidden="true">*</span></label>
-            <input id="name" name="お名前" type="text" required>
+            <label for="name">お名前*</label>
+            <input type="text" id="name" name="name" required>
           </div>
           <div class="form__group">
-            <label for="email">メールアドレス <span aria-hidden="true">*</span></label>
-            <input id="email" name="メールアドレス" type="email" autocomplete="email" required>
+            <label for="email">メールアドレス*</label>
+            <input type="email" id="email" name="email" required>
           </div>
           <div class="form__group">
-            <label for="message">ご相談内容 <span aria-hidden="true">*</span></label>
-            <textarea id="message" name="ご相談内容" rows="4" required></textarea>
+            <label for="phone">電話番号</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form__group">
+            <label for="message">ご相談内容*</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
           </div>
           <div class="form__group form__group--checkbox">
-            <input id="agree" name="同意" type="checkbox" value="同意する" required>
-            <label for="agree">プライバシーポリシーに同意します</label>
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree"><a href="#privacy">プライバシーポリシー</a>に同意する</label>
           </div>
-          <button type="submit" class="btn btn--primary">メールで送信</button>
+          <div class="form__actions">
+            <button type="submit" class="btn btn--primary btn--large">内容を送信</button>
+          </div>
         </form>
       </div>
     </section>
@@ -397,40 +410,38 @@
     <section class="section" id="privacy" aria-labelledby="privacy-title">
       <div class="section__inner">
         <h2 class="section__title" id="privacy-title">プライバシーポリシー</h2>
-        <p>当院は取得した個人情報を適切に管理し、診療およびお問い合わせ対応の目的以外で使用いたしません。第三者への提供は法令に基づく場合を除き行いません。</p>
+        <p>ハーモニーデンタルクリニックは、取得した個人情報を診療および予約管理、連絡以外の目的では使用せず、適切に保護します。個人情報の開示・訂正・削除についてはお問い合わせフォームまたはお電話でご連絡ください。</p>
       </div>
     </section>
   </main>
 
-  <footer class="footer" aria-labelledby="footer-title">
+  <footer class="footer">
     <div class="footer__inner">
-      <div class="footer__info">
-        <h2 class="footer__title" id="footer-title">ハーモニーデンタルクリニック</h2>
-        <p>〒123-4567 東京都港区芝公園1-1-1</p>
-        <p><a href="tel:0312345678" class="footer__tel">03-1234-5678</a></p>
-        <p><a href="mailto:info@example.com">info@example.com</a></p>
-        <p class="footer__hours">診療時間：平日9:30-13:00／14:30-19:00・土曜17:00まで</p>
+      <div class="footer__brand">
+        <p class="footer__name">ハーモニーデンタルクリニック</p>
+        <p class="footer__address">〒105-0011 東京都港区芝公園1-2-3 ハーモニービル1F</p>
+        <p class="footer__contact"><a href="tel:0312345678">03-1234-5678</a>／<a href="mailto:info@example.com">info@example.com</a></p>
       </div>
-      <div class="footer__links">
-        <h3 class="footer__subtitle">リンク</h3>
+      <div class="footer__links" aria-label="補助メニュー">
         <ul>
+          <li><a href="#reason">選ばれる理由</a></li>
           <li><a href="#services">診療メニュー</a></li>
           <li><a href="#prices">料金</a></li>
-          <li><a href="#faq">よくある質問</a></li>
+          <li><a href="#access">アクセス</a></li>
           <li><a href="#privacy">プライバシーポリシー</a></li>
         </ul>
       </div>
       <div class="footer__cta">
-        <a class="btn btn--primary btn--block" href="https://line.me/R/ti/p/@harmonydental">LINEで予約</a>
-        <a class="btn btn--ghost btn--block" href="tel:0312345678">03-1234-5678に電話</a>
+        <a class="btn btn--primary" href="https://line.me/R/ti/p/@harmonydental">LINEで予約</a>
+        <a class="btn btn--secondary" href="tel:0312345678">電話する</a>
       </div>
     </div>
-    <p class="footer__copy">&copy; 2025 ハーモニーデンタルクリニック. All rights reserved.</p>
+    <p class="footer__copyright">&copy; 2025 Harmony Dental Clinic</p>
   </footer>
 
-  <div class="cta-fixed" role="complementary" aria-label="固定されたご予約ボタン">
-    <a class="btn btn--primary" href="https://line.me/R/ti/p/@harmonydental">LINE予約</a>
-    <a class="btn btn--secondary" href="tel:0312345678">電話する</a>
+  <div class="cta-fixed" role="complementary" aria-label="固定の予約導線">
+    <a class="btn btn--primary btn--block" href="https://line.me/R/ti/p/@harmonydental">LINEで予約</a>
+    <a class="btn btn--ghost btn--block" href="tel:0312345678">電話する</a>
   </div>
 
   <script type="application/ld+json">
@@ -439,39 +450,45 @@
     "@type": "Dentist",
     "name": "ハーモニーデンタルクリニック",
     "image": "assets/img/hero.jpg",
+    "@id": "https://example.com",
     "url": "https://example.com",
     "telephone": "+81-3-1234-5678",
+    "priceRange": "￥〜",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "芝公園1-1-1",
+      "streetAddress": "港区芝公園1-2-3 ハーモニービル1F",
       "addressLocality": "港区",
       "addressRegion": "東京都",
-      "postalCode": "123-4567",
+      "postalCode": "105-0011",
       "addressCountry": "JP"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 35.6586,
-      "longitude": 139.7454
+      "latitude": "35.6561",
+      "longitude": "139.7495"
     },
-    "priceRange": "￥〜",
-    "openingHours": [
-      "Mo-Fr 09:30-13:00",
-      "Mo-Fr 14:30-19:00",
-      "Sa 09:30-13:00",
-      "Sa 14:00-17:00"
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:30",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:30",
+        "closes": "17:00"
+      }
     ],
     "sameAs": [
       "https://line.me/R/ti/p/@harmonydental"
-    ],
-    "founder": "山田 太郎",
-    "foundingDate": "2010",
-    "description": "芝公園駅徒歩3分の歯科クリニック。一般歯科から矯正・インプラントまで幅広く対応し、LINE予約に対応しています。",
-    "medicalSpecialty": [
-      "General",
-      "Orthodontic",
-      "Pediatric",
-      "Implant"
     ]
   }
   </script>
